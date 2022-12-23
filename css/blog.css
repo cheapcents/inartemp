@@ -1,0 +1,106 @@
+.latestBlogItem{
+    border:  3px solid black;
+    border-radius: 15px;
+    padding: 6px;
+    background: rgba(0, 0, 0, 0.134);
+}
+
+.blogimg{
+    border-bottom: 3px solid black;
+    margin-bottom: 20px;
+}
+
+
+.lbi_details{
+    background: transparent;
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#blog{
+    color: rgba(255, 255, 255, 0.61);
+}
+
+
+#blog h3,
+#blog a{
+    color: white;
+}
+
+.id{
+    display: none;
+}
+
+.postagem2{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.postagem{
+    font-size: 30px;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+.bloglink:hover{
+    color: yellow !important;
+}
+
+
+
+.edtbtn{
+    padding: 0;
+    border: none;
+    background: transparent !important;
+}
+
+.neoh_fn_button:hover .edtbtn{
+    color:  yellow;
+    cursor: pointer;
+}
+
+.contactsession{
+    background: white;
+}
+
+.black{
+    color: black;
+}
+
+.imageicon{
+    max-height: 70px;
+    margin-bottom: 10px;
+}
+
+.branco{
+    background: white !important;
+}
+
+.header2{
+    background: black !important;
+}
+
+.binput{
+    background-color: white !important;
+    font-size: 13px !important;
+    min-width: 220px !important;
+    color: #aaa !important;
+    box-sizing: border-box !important;
+    border: 1px solid #eee !important;
+    transition: all .3s ease !important;
+}
+
+.center{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
+    min-width: 300px;
+}
